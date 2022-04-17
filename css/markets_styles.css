@@ -1,0 +1,46 @@
+html{
+    background-color:  rgba(8, 71, 8, 0.555);
+}
+
+
+title{
+    color: darkolivegreen;
+    float: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* changes the text in the centre of the screen */
+.words{
+    color:white;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding-left: 25%;
+    padding-right: 25%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 1;
+}
+
+/* for  phones (iphone X) */
+@media screen and (max-width:768px){
+  /* changes the size of the text */
+  .words{
+    font-size: 27.5px;
+  }
+
+/* for  phones (iphone X) */
+@media screen and (max-width:450px){
+  /* changes the size of the text */
+  .words{
+    font-size: 25px;
+  }
+
+
+/* for very small phones (iphone 5) */
+@media screen and (max-width:350px){
+  /* changes the size of the text */
+  .words{
+    font-size: 22px;
+  }

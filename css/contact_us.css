@@ -1,0 +1,33 @@
+/* the background photo */
+#index_main_photo{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    float: left;
+    width: 50%;
+    height: 90%;
+    border: 5px solid black;
+    opacity: 65%;
+}
+
+#t,#i{
+  width: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+  display: inline-block;
+}
+
+#e{
+  width:5%;
+  margin-top: 5%;
+}
+
+body{
+  background-color: white;
+}
+
+.emailSection{
+  border: 5px solid black;
+  float: right;
+}
